@@ -9,9 +9,16 @@ li a {
 .nav>li>a:focus ,.nav>li>a:hover {
 	background-color: #217297;
 	color: white;
-
-
-
+}
+.navbar-static-top {
+	background-color: #1C607F;
+}
+#brandName {
+	color: white
+}
+.modal-footer{
+	background-color: #426C7F;
+}
 
 
 
@@ -23,11 +30,12 @@ body {
 }
 #wrapper {
   width: 100%;
+  background-color: #2D9ACC;
 }
 #page-wrapper {
   padding: 0 15px;
   min-height: 568px;
-  background-color: white;
+  background-color: #84D8FF;
 }
 @media (min-width: 768px) {
   #page-wrapper {
