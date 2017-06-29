@@ -1,3 +1,23 @@
+.sidebar-nav {
+	background-color: #2D9ACC;
+}
+
+li a {
+	color: white
+}
+
+.nav>li>a:focus ,.nav>li>a:hover {
+	background-color: #217297;
+	color: white;
+
+
+
+
+
+
+
+
+
 body {
   background-color: #f8f8f8;
 }
@@ -73,7 +93,8 @@ body {
   border-bottom: 1px solid #e7e7e7;
 }
 .sidebar ul li a.active {
-  background-color: #eeeeee;
+  background-color: white;
+  color: #2D9ACC
 }
 .sidebar .arrow {
   float: right;
