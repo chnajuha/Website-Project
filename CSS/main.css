@@ -1,13 +1,41 @@
+.sidebar-nav {
+	background-color: #2D9ACC;
+}
+
+li a {
+	color: white
+}
+
+.nav>li>a:focus ,.nav>li>a:hover {
+	background-color: #217297;
+	color: white;
+}
+.navbar-static-top {
+	background-color: #1C607F;
+}
+#brandName {
+	color: white
+}
+.modal-footer{
+	background-color: #426C7F;
+}
+
+
+
+
+
+
 body {
   background-color: #f8f8f8;
 }
 #wrapper {
   width: 100%;
+  background-color: #2D9ACC;
 }
 #page-wrapper {
   padding: 0 15px;
   min-height: 568px;
-  background-color: white;
+  background-color: #84D8FF;
 }
 @media (min-width: 768px) {
   #page-wrapper {
@@ -73,7 +101,8 @@ body {
   border-bottom: 1px solid #e7e7e7;
 }
 .sidebar ul li a.active {
-  background-color: #eeeeee;
+  background-color: white;
+  color: #2D9ACC
 }
 .sidebar .arrow {
   float: right;
