@@ -22,8 +22,15 @@ li a {
 
 #footer > p {
 	color: white
+#logo {
+    position: absolute;
+    margin: auto;
+    left: 0; 
+    top: 0;
+    bottom: 0;
+    width: 240px;
+    height: 64px;
 }
-
 
 
 
