@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <head>
     <meta charset="utf-8">
     <title>Name of the Webpage</title>
@@ -11,6 +11,8 @@
     <!-- Custom Fonts -->
     <link href="font/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <link rel="stylesheet" type="text/css" href="forum.css">
+    
 </head>
 
 <body>
@@ -25,7 +27,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" id="brandName" href="index.html">Home Page Picture</a>
+                <a class="navbar-brand" id="brandName" href="index.html"><img id="logo" style="height:"src="media\Logo\AWH.2a.png"></a>
             </div>
             <!-- /.navbar-header -->            
             <!-- /.navbar-top-links -->
@@ -128,8 +130,32 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Home Page</h1>
+                  <h1 class="page-header">Forum</h1>
                 </div>
+               <table style="width:100%">
+               	<tr>
+               		<th>Topic</th>
+               		<th>Last Message</th>
+               		<th>Replies</th>
+               	</tr>
+               	<tr>
+               		<th><img class="icons" src="Paper Icon.png">Thread 1</th>
+               		<th>7 June 2017 08:30</th>
+               		<th>2</th>
+               	</tr>
+               	<tr>
+               		<th><img class="icons" src="Paper Icon.png">Thread 2</th>
+               		<th>8 June 2017 14:00</th>
+               		<th>4</th>
+               	</tr>
+               	<tr>
+               		<th><img class="icons" src="Paper Icon.png">Thread 3</th>
+               		<th>15 June 2017 12:00</th>
+               		<th>2</th>
+               	</tr>
+               </table>
+               <br>
+               <button style="border-radius: 5px;" type="button">Create Topic</button>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
