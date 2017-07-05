@@ -20,10 +20,6 @@ li a {
 	background-color: #426C7F;
 }
 
-#footer > p {
-	color: white
-}
-
 #logo {
     position: absolute;
     margin: auto;
@@ -33,6 +29,7 @@ li a {
     width: 240px;
     height: 64px;
 }
+
 
 
 
