@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title>Name - Troubleshooting Tips</title>
+    <title>Alamak - Troubleshooting Tips</title>
     <!-- Bootstrap Core CSS -->
-    <link href="JS/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="JS/bootstrap/css/bootstrap.min.css">
     <!-- MetisMenu CSS -->
-    <link href="JS/bootstrap/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="JS/bootstrap/metisMenu/metisMenu.min.css">
     <!-- Custom CSS -->
-    <link href="CSS/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/trouble.css">
     <!-- Custom Fonts -->
-    <link href="font/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="font/css/font-awesome.min.css" >
 </head>
 
 <body>
@@ -24,7 +25,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" id="brandName" href="index.html">Home Page Picture</a>
+                <a class="navbar-brand" id="brandName" href="index.html"><img id="logo" style="height:"src="media\Logo\AWH.2a.png"></a>
             </div>
             <!-- /.navbar-header -->            
             <!-- /.navbar-top-links -->
@@ -43,16 +44,22 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a class="active" href="index.html"><span class="fa fa-home fa-fw"></span> Home</a>
+                            <a href="index.html"><span class="fa fa-home fa-fw"></span> Home</a>
                         </li>
                         <li>
-                            <a href="#"><span class="fa fa-shield fa-fw"></span> Troubleshooting Tips<span class="fa arrow"></span></a>
+                            <a id="current" class="active" href="#"><span class="fa fa-shield fa-fw"></span> Troubleshooting Tips<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="flot.html">Flot Charts</a>
+                                    <a id="clickFTUlink" href="#">First Time User</a>
                                 </li>
                                 <li>
-                                    <a href="morris.html">Morris.js Charts</a>
+                                    <a id="clickViruslink" href="#">Virus</a>
+                                </li>
+                                <li>
+                                    <a id="clickMalwarelink" href="#">Malware</a>
+                                </li>
+                                <li>
+                                    <a id="clickTorjanlink" href="#">Trojan</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -134,32 +141,33 @@
             <!-- /.row -->
             <div class="row">
                 <div class="col-md-12">
-                	<div class="panel panel-default">
-    					<div class="panel-body"><h2 class="panel-heading">First Time User</h2>
+                	<div id="box1" class="panel panel-default">
+    					<div id="heading1" class="panel-body"><h2 class="panel-heading"><div>First Time User </div><a id="clickFTU" class="troublink-right" href="#"><div class="text-right">Click Here to learn more <i class="fa fa-angle-right"></i></div></a></h2>
+                        
                         <hr>
                         <div class="col-md-8">
                         	For the first time user on this PC/Laptop/Android/iOS 
                         </div>
                         </div>
   					</div>
-                	<div class="panel panel-default">
-    					<div class="panel-body"><h2 class="panel-heading">Virus</h2>
+                	<div id="box2" class="panel panel-default">
+    					<div id="heading2" class="panel-body"><h2 class="panel-heading"><div>Virus</div><a id="clickVirus" class="troublink-right" href="#"><div class="text-right">Click Here to learn more <i class="fa fa-angle-right"></i></div></a></h2>
                         <hr>
                         <div class="col-md-8">
                         	Known more about what is the virus payload. 
                         </div>
                         </div>
   					</div>
-                    <div class="panel panel-default">
-    					<div class="panel-body"><h2 class="panel-heading">Malware</h2>
+                    <div id="box3" class="panel panel-default">
+    					<div id="heading3" class="panel-body"><h2 class="panel-heading"><div>Malware</div> <a id="clickMalware" class="troublink-right" href="#"><div class="text-right">Click Here to learn more <i class="fa fa-angle-right"></i></div></a></h2>
                         <hr>
                         <div class="col-md-8">
                         	Known more about what is the malware control your system. 
                         </div>
                         </div>
   					</div>
-                    <div class="panel panel-default">
-    					<div class="panel-body"><h2 class="panel-heading">Trojan</h2>
+                    <div id="box4" class="panel panel-default">
+    					<div id="heading4" class="panel-body"><h2 class="panel-heading"><div>Trojan</div><a id="clickTorjan" class="troublink-right" href="#"><div class="text-right">Click Here to learn more <i class="fa fa-angle-right"></i></div></a></h2>
                         <hr>
                         <div class="col-md-8">
                         	Known more about what is the trojan control your system in a backdoor access. 
@@ -177,6 +185,7 @@
     <!-- /#wrapper -->
     <!-- jQuery -->
     <script src="JS/jquery/jquery-3.2.1.min.js"></script>
+    <script src="JS/jquery/trouble/linkchanger.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="JS/bootstrap/js/bootstrap.min.js"></script>
     <!-- Metis Menu Plugin JavaScript -->
