@@ -1,0 +1,60 @@
+#page-wrapper{
+	width:auto;
+}
+
+.navbar navbar-default navbar-static-top{
+	width:auto;
+}
+
+
+.main_header{
+	text-align: center;
+}
+
+.main_header2{
+	text-align: center;
+}
+
+.table{
+	width:100%;	
+	border:1px solid black;	 
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+}
+
+.theader, .tdata{
+	width:auto;
+	text-align:center;
+	color: black;
+	padding-left:1px;
+	padding-right:1px
+}
+
+.table a:link {
+    color: blue; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+.table a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.table a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.table a:active {
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
+	text-align: center;
+}
+
+.modal-footer{
+	width:auto;
