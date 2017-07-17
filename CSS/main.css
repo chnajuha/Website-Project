@@ -14,18 +14,19 @@ li a {
 	background-color: #1C607F;
 }
 #brandName {
-	color: white
+	color: white;
 }
 .modal-footer{
 	background-color: #426C7F;
 }
 
 #footer > p {
-	color: white
+	color: white;
 }
 #logo {
-    position: absolute;
+	position:absolute;
     margin: auto;
+	padding: 0px;
     left: 0; 
     top: 0;
     bottom: 0;
