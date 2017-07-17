@@ -30,10 +30,9 @@ li a {
     height: 64px;
 }
 
-
-
-
-
+#footer > p {
+	color: white
+}
 
 body {
   background-color: #f8f8f8;
