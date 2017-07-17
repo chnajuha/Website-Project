@@ -94,7 +94,7 @@
                             <a href="#"><span class="fa fa-comments fa-fw"></span> Forum<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="#">Second Level Item</a>
+                                    <a href="#">First Level Item</a>
                                 </li>
                                 <li>
                                     <a href="#">Second Level Item</a>
@@ -135,7 +135,8 @@
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
-            <div class="container">
+            <div class="row">
+				<div class="col-md-12">
 
 <h3>Courses</h3>
 
@@ -185,11 +186,13 @@
 	</tr>
 </table>
 </div>
-<div class="container">
+</div>
+<div class="row">
+<div class="col-md-12">
 
 <h2>Interested in any of the courses?</h2>
 
-<form>
+<form id="frm1">
 
   <fieldset class="form-group">
     <legend>Sign up now!</legend>
@@ -217,16 +220,21 @@
 
 
   </fieldset>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" value="submit" onclick="btnclick()" class="btn btn-primary">Submit</button>
 </form>
-
+<br>
+</div>
 </div>
          </div>
          <div class="modal-footer">
     	<p>This is a product of group 1 of ITP111 2017, &copy; All rights reserved.</p>
     	 </div>
     </div>
-    
+<script>
+function btnclick(){
+	document.getElementById("frm1").submit();
+}
+</script>
     <!-- /#wrapper -->
     <!-- jQuery -->
     <script src="JS/jquery/jquery-3.2.1.min.js"></script>
