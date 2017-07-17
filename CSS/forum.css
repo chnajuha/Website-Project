@@ -1,0 +1,10 @@
+th, td {
+    padding: 15px;
+}
+table, tr {
+     border: 1px solid black;
+}
+.icons {
+    height:24px;
+    width:24px;
+}
