@@ -14,30 +14,36 @@ li a {
 	background-color: #1C607F;
 }
 #brandName {
-	color: white
+	color: white;
 }
 .modal-footer{
 	background-color: #426C7F;
 }
 
+<<<<<<< HEAD
 #footer > p {
-	color: white
+	color: white;
 }
-
+=======
+>>>>>>> origin/Merge-Main
 #logo {
-    position: absolute;
-    margin: auto;
+	position:absolute;
+    margin: 0px;
+	padding: 0px 0px 10px 0;
     left: 0; 
     top: 0;
     bottom: 0;
     width: 240px;
     height: 64px;
 }
+<<<<<<< HEAD
+=======
 
+#footer > p {
+	color: white
+}
 
-
-
-
+>>>>>>> origin/Merge-Main
 body {
   background-color: #f8f8f8;
 }
