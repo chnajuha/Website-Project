@@ -20,12 +20,11 @@ li a {
 	background-color: #426C7F;
 }
 
-<<<<<<< HEAD
+
 #footer > p {
 	color: white;
 }
-=======
->>>>>>> origin/Merge-Main
+
 #logo {
 	position:absolute;
     margin: 0px;
@@ -36,14 +35,9 @@ li a {
     width: 240px;
     height: 64px;
 }
-<<<<<<< HEAD
-=======
 
-#footer > p {
-	color: white
-}
 
->>>>>>> origin/Merge-Main
+
 body {
   background-color: #f8f8f8;
 }
