@@ -14,23 +14,15 @@ li a {
 	background-color: #1C607F;
 }
 #brandName {
-<<<<<<< HEAD
 	color: white;
-=======
-	color: white
->>>>>>> refs/remotes/origin/master
 }
 .modal-footer{
 	background-color: #426C7F;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #footer > p {
 	color: white;
 }
-=======
->>>>>>> origin/Merge-Main
 #logo {
 	position:absolute;
     margin: 0px;
@@ -41,21 +33,6 @@ li a {
     width: 240px;
     height: 64px;
 }
-<<<<<<< HEAD
-=======
-
-#footer > p {
-	color: white
-}
-
->>>>>>> origin/Merge-Main
-=======
-
-
-
-
-
->>>>>>> refs/remotes/origin/master
 body {
   background-color: #f8f8f8;
 }
@@ -193,8 +170,4 @@ body {
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
   color: white;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> refs/remotes/origin/master
