@@ -1,38 +1,41 @@
 #page-wrapper{
-	width: auto;
+	width:auto;
 }
 
 .navbar navbar-default navbar-static-top{
-	width: auto;
+	width:auto;
 }
 
 .page-header{
-	font-size: 48px;
-	text-align: center;
+	font-size:48px;
+	text-align:center;
+	color:#930
 }
 
 .main_header{
 	font-size:36px;
 	text-align: center;
+	color:#C36
 }
 
 .main_header2{
 	font-size: 36px;
 	text-align: center;
+	color:#FFF
 }
 
-.table{
+.table1{
 	width: 80%;	
-	border: 1px solid black;	 
+	border: 1px solid firebrick;	 
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
 }
 
-.table1{
+.table2{
 	width: 90%;	
-	border: 1px solid black;	 
+	border: 1px solid firebrick;	 
 	text-align: center;
 	margin-left: auto;
 	margin-right:auto;
@@ -44,7 +47,7 @@
 	text-decoration: underline;
 	width: 20%;
 	text-align:left;
-	border: 1px solid black;	
+	border: 1px solid firebrick;	
 	color: black;
 	margin-right: 5px;
 	margin-bottom: 5px;
@@ -57,7 +60,7 @@
 	font-weight: bold;
 	width: 20%;
 	text-align: left;
-	border: 1px solid black;	
+	border: 1px solid firebrick;	
 	color: black;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -70,7 +73,7 @@
 	text-decoration: underline;
 	width: 20%;
 	text-align:left;
-	border: 1px solid black;	
+	border: 1px solid firebrick;	
 	color: black;
 	margin-right: 5px;
 	margin-bottom: 5px;
@@ -83,7 +86,7 @@
 	font-weight: bold;
 	width: 20%;
 	text-align: left;
-	border: 1px solid black;	
+	border: 1px solid firebrick;	
 	color: black;
 	margin-left: 5px;
 	margin-right: 5px;
