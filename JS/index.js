@@ -60,7 +60,7 @@ function inActive(){
 	
 }
 // Check for mousemove, could add other events here such as checking for key presses ect.
-$(document).bind('click', function(){resetActive();});
+$(document).bind('mouseMove', function(){resetActive();});
 	
 }
 
@@ -80,11 +80,11 @@ $(document).bind('click', function(){resetActive();});
 		 
 		 //title of news
 		 var header = document.createElement("h3");
-		 header.innerText=(localNews[j].title);
+		 header.innerHTML=(localNews[j].title);
 		 
 		 //content of news
 		 var content = document.createElement("p");
-		 content.innerText=(localNews[j].text);
+		 content.innerHTML=(localNews[j].text);
 		 
 		 li.appendChild(header);
 		 li.appendChild(content);
