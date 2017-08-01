@@ -9,3 +9,20 @@ a.troublink-right{
 	text-decoration:none;
 	display:block;
 }
+
+p {
+	font-size:16px;
+}
+
+#main{
+	font-size:inherit;
+	font-size:14px;
+}
+
+#panel3{
+	padding:0;
+}
+
+#vidarea{
+	border-width:10px
+}
