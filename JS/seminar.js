@@ -1,6 +1,6 @@
 
 
-function click(){
+function submit(){
 	var name=document.getElementById("personname").value;
 	var mail=document.getElementById("personemail").value;
 	var choice=document.getElementById("personchoice").value;
