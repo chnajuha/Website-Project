@@ -26,3 +26,22 @@ p {
 #vidarea{
 	border-width:10px
 }
+
+.imagegallery {
+	list-style:none;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	max-width: 780px;
+	text-align: center;
+	display: inline-block;
+	padding: 8px;
+	background:white;
+	margin:10px;
+}
+.imagegallery img {
+	display: block;
+}
+.imagegallery a {
+	text-decoration: none;
+}
