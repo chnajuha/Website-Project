@@ -1,0 +1,163 @@
+#page-wrapper{
+	width:auto;
+}
+
+.navbar navbar-default navbar-static-top{
+	width:auto;
+}
+
+.page-header{
+	font-size:48px;
+	text-align:center;
+	color:#930
+}
+
+.main_header{
+	font-size:36px;
+	text-align: center;
+	color:#C36
+}
+
+.main_header2{
+	font-size: 36px;
+	text-align: center;
+	color:#FFF
+}
+
+.table1{
+	width: 80%;	
+	border: 1px solid firebrick;	 
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+.table2{
+	width: 90%;	
+	border: 1px solid firebrick;	 
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: white;
+}
+
+.theader{
+	font-size: 18px;
+	text-decoration: underline;
+	width: 20%;
+	text-align:left;
+	border: 1px solid firebrick;	
+	color: black;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.tdata{
+	font-size: 18px;
+	font-weight: bold;
+	width: 20%;
+	text-align: left;
+	border: 1px solid firebrick;	
+	color: black;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.theader1{
+	font-size: 18px;
+	text-decoration: underline;
+	width: 20%;
+	text-align:left;
+	border: 1px solid firebrick;	
+	color: black;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.tdata1{
+	font-size: 18px;
+	font-weight: bold;
+	width: 20%;
+	text-align: left;
+	border: 1px solid firebrick;	
+	color: black;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.table a:link {
+    color: #00F;
+	text-align: center;
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+.table a:visited {
+    color: #C60;
+	text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.table a:hover {
+    color: #F00;
+	text-align: center;
+    background-color: transparent;
+    text-decoration: underline
+}
+
+.table a:active {
+	color: #00F;
+	text-align:center;
+	background-color: transparent;
+	text-decoration: none;
+	text-align: center;
+}
+
+.table1 a:link {
+    color: #00F;
+	text-align:center;
+    background-color:transparent; 
+    text-decoration:none;
+}
+
+.table1 a:visited {
+    color: #C60;
+	text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.table1 a:hover {
+    color: #F00;
+	text-align: center;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.table1 a:active {
+	color: #00F;
+	text-align: center;
+	background-color: transparent;
+	text-decoration: none;
+	text-align: center;
+}
+
+#logo1{
+	width: 35%;
+}
+
+#logo2{
+	width: 35%;
+}
+
+.modal-footer{
+	width: auto;

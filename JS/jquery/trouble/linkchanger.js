@@ -1,11 +1,5 @@
 // JavaScript Document
 
-$("#load").click(function() {
-	window.location.href("trouble-home.html");
-});
-
-
-
 $("#current").click('click', backlink);
 $("#clickFTU").click('click', clickFTU);
 $("#clickFTUlink").click('click', clickFTU);

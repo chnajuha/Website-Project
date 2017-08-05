@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title>Name - Troubleshooting Tips</title>
+    <title>Home - ALAMAK WHAT HAPPENED</title>
     <!-- Bootstrap Core CSS -->
     <link href="JS/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- MetisMenu CSS -->
     <link href="JS/bootstrap/metisMenu/metisMenu.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="CSS/main.css" rel="stylesheet">
+    <link href="CSS/index.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
@@ -24,7 +25,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" id="brandName" href="HomePage.html"><img id="logo" style="height:"src="media\Logo\AWH.2a.png"></a></a>
+                <a class="navbar-brand" id="brandName" href="index.html"><img id="logo" src="media\Logo\AWH.2a.png"></a>
             </div>
             <!-- /.navbar-header -->            
             <!-- /.navbar-top-links -->
@@ -87,9 +88,8 @@
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
-                        <li>
-                            <a href="#"><span class="fa fa-comments fa-fw"></span> Forum<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
+                        <li><a href="#"><span class="fa fa-comments fa-fw"></span> News<span class="fa arrow"></span></a>
+                          <ul class="nav nav-second-level">
                                 <li>
                                     <a href="#">Second Level Item</a>
                                 </li>
@@ -127,50 +127,57 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Troubleshooting Tips</h1>
+                  <h1 class="page-header">Home Page <img height="60em" src="media/index/Home icon.jpg"></h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
             <div class="row">
                 <div class="col-md-12">
+                	<div id="slideshow" class="panel panel-default">
+                		<div class="panel-body slideshow-container" >
+                			
+               			  <div class="row" style="display: inline-block">
+                			
+                			<div class="slide col-lg-7" style="display: inline-block"><a class="prev">&#10094;</a><img class="mainImage" width="80%" src="media/index/ads1.jpg"><a class="next">&#10095;</a>
+                			</div>
+                			
+                			<div class="col-lg-5 panel-body">
+								<h2 class="panel-heading"><u><strong>Annoucement</strong></u> <img height="70px" src="http://hddfhm.com/images/clipboard-clipart-9.gif"></h2>
+                				<hr>
+                				<div class="col-md-12" id="annoucement">
+                					<ul>
+                						<li>Basic Computing course this Saturday</li>
+                						<li>Community Meetup</li>
+                						<li>Latest Ransomeware attack </li>
+
+                						
+                					</ul>                				
+                				</div>
+                			
+							</div>
+              				
+               				
+							</div>	
+                		</div>
+                	</div>
                 	<div class="panel panel-default">
-    					<div class="panel-body"><h2 class="panel-heading">First Time User</h2>
+						<div class="panel-body"><h2 class="panel-heading"><u><strong>News Feed</strong></u> <img width=10% src="http://media.istockphoto.com/vectors/newspaper-cartoon-vector-id459898953"></h2>
                         <hr>
-                        <div class="col-md-8">
-                        	For the first time user on this PC/Laptop/Android/iOS 
+                        <div class="col-md-12" id="newsContainer">
+                        	<ol id="newsDisplay">
+                        		
+                        	</ol>
                         </div>
                         </div>
   					</div>
-                	<div class="panel panel-default">
-    					<div class="panel-body"><h2 class="panel-heading">Virus</h2>
-                        <hr>
-                        <div class="col-md-8">
-                        	Known more about what is the virus payload. 
-                        </div>
-                        </div>
-  					</div>
-                    <div class="panel panel-default">
-    					<div class="panel-body"><h2 class="panel-heading">Malware</h2>
-                        <hr>
-                        <div class="col-md-8">
-                        	Known more about what is the malware control your system. 
-                        </div>
-                        </div>
-  					</div>
-                    <div class="panel panel-default">
-    					<div class="panel-body"><h2 class="panel-heading">Trojan</h2>
-                        <hr>
-                        <div class="col-md-8">
-                        	Known more about what is the trojan control your system in a backdoor access. 
-                        </div>
-                        </div>
+
   					</div>
                 </div>
             </div>
          </div>
          <div class="modal-footer" id="footer">
-    	<p>This is a porduct of group 1 of ITP111 2017, &copy; All rights reserved.</p>
+    	<p>This is a product of group 1 of ITP111 2017, &copy; All rights reserved.</p>
     	 </div>
     </div>
     
@@ -183,5 +190,6 @@
     <script src="JS/bootstrap/metisMenu/metisMenu.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="JS/Main.js"></script>
+    <script src="JS/index.js"></script>
 	</body>
 </html>
