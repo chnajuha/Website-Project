@@ -1,0 +1,15 @@
+#logo {
+	position:absolute;
+	margin:auto;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 20%;
+}
+
+#video {
+	text-align:center;
+	width:"610";
+	height:"355";
+	background-color:white;
+}
