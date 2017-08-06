@@ -93,40 +93,11 @@
 	padding-left: 1px;
 	padding-right: 1px;
 }
-.table a:link {
+.table1 a:link {
     color: #00F;
 	text-align: center;
     background-color: transparent; 
     text-decoration: none;
-}
-
-.table a:visited {
-    color: #C60;
-	text-align: center;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.table a:hover {
-    color: #F00;
-	text-align: center;
-    background-color: transparent;
-    text-decoration: underline
-}
-
-.table a:active {
-	color: #00F;
-	text-align:center;
-	background-color: transparent;
-	text-decoration: none;
-	text-align: center;
-}
-
-.table1 a:link {
-    color: #00F;
-	text-align:center;
-    background-color:transparent; 
-    text-decoration:none;
 }
 
 .table1 a:visited {
@@ -140,10 +111,39 @@
     color: #F00;
 	text-align: center;
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 .table1 a:active {
+	color: #00F;
+	text-align:center;
+	background-color: transparent;
+	text-decoration: none;
+	text-align: center;
+}
+
+.table2 a:link {
+    color: #00F;
+	text-align:center;
+    background-color:transparent; 
+    text-decoration:none;
+}
+
+.table2 a:visited {
+    color: #C60;
+	text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.table2 a:hover {
+    color: #F00;
+	text-align: center;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.table2 a:active {
 	color: #00F;
 	text-align: center;
 	background-color: transparent;
