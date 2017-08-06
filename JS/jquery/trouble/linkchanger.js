@@ -45,7 +45,7 @@ function backlink() {
 	$("#box3").slideDown(0);
 	box3.html('<h2 class="panel-heading"><div>Phishing </div><a id="clickPhishing" class="troublink-right" href="#"><div class="text-right">Click Here to learn more <i class="fa fa-angle-right"></i></div></a></h2>');
 	box3.append("<hr>");
-	var text2 = ("Known more about what is the malware control your system. ");
+	var text2 = ("Known more about what is the Phishing is a form of fraud in which the attacker tries to learn information. ");
 	box3.append("<div class='col-md-12'><p id='main'>" + text2 +"</p></div>");
 	box3.append("</div");
 	
