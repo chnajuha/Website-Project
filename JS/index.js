@@ -59,9 +59,9 @@ function inActive(){
 	loop = setInterval(cycle,5000);
 	
 }
-// Check for mousemove, could add other events here such as checking for key presses ect.
+// Check for mousemove
 
-$(document).bind('mouseMove', function(){resetActive();});
+$(document).bind('mousemove', function(){resetActive();});
 	
 }
 
