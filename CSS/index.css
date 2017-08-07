@@ -1,3 +1,8 @@
+#annoucement li a {
+	color: blue;
+	text-decoration: underline;
+}
+
 .prev, .next {
   cursor: pointer;
   position: relative;
